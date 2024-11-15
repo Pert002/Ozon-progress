@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <title>Progress</title>
+</head>
+    <body class="progress__body">
+        <div class="progress__content">
+
+            <h3 class="title">Progress</h3>
+            <div id="progressBar" class="hide-element"></div>
+            <div class="buttons">
+                <form class="value hide-element">
+                    <input type="text" value="75" id="progressBarValue">
+                    <label for="progressBarValue">Value</label>
+                </form>
+
+                <form class="switch hide-element">
+                    <input type="checkbox" id="animateButton" class="switch-button">
+                    <span class="slider round"></span>
+                    <label for="animateButton">Animate</label>
+                </form>
+
+                <form class="switch">
+                    <input type="checkbox" id="hideButton" class="switch-button">
+                    <span class="slider round"></span>
+                    <label for="hideButton">Hide</label>
+                </form>
+            </div>
+        </div>
+
+        <script src="src/scripts/value.js"></script>
+    </body>
+</html>
