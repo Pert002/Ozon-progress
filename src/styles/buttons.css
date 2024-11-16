@@ -1,0 +1,27 @@
+#progressBarValue {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.progress-content__buttons {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-content__buttons .progress-content__label {
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.progress-content__value, .switch {
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 28px;
+}

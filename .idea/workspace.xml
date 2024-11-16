@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2355e7e8-21aa-42e9-ae6c-18423d13f1a3" name="Changes" comment="" />
+    <list default="true" id="2355e7e8-21aa-42e9-ae6c-18423d13f1a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scripts/progressBarClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/progressBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/toggle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/value.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Учёба/Ozon_Progress",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +85,10 @@
       <updated>1731577812364</updated>
       <workItem from="1731577813913" duration="15547000" />
       <workItem from="1731661955259" duration="7988000" />
-      <workItem from="1731675112775" duration="1316000" />
+      <workItem from="1731675112775" duration="1752000" />
+      <workItem from="1731676878006" duration="1462000" />
+      <workItem from="1731700234748" duration="6818000" />
+      <workItem from="1731746222504" duration="1784000" />
     </task>
     <servers />
   </component>

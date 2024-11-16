@@ -4,33 +4,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/buttons.css">
+    <link rel="stylesheet" href="src/styles/progressBar.css">
+    <link rel="stylesheet" href="src/styles/toggle.css">
     <title>Progress</title>
 </head>
     <body class="progress__body">
         <div class="progress__content">
 
-            <h3 class="title">Progress</h3>
+            <h1 class="progress-content__title">Progress</h1>
             <div id="progressBar" class="hide-element"></div>
-            <div class="buttons">
-                <form class="value hide-element">
+            <form class="progress-content__buttons">
+                <div class="progress-content__value hide-element">
                     <input type="text" value="75" id="progressBarValue">
-                    <label for="progressBarValue">Value</label>
-                </form>
+                    <label class="progress-content__label" for="progressBarValue">Value</label>
+                </div>
 
-                <form class="switch hide-element">
+                <div class="switch hide-element">
                     <input type="checkbox" id="animateButton" class="switch-button">
                     <span class="slider round"></span>
-                    <label for="animateButton">Animate</label>
-                </form>
+                    <label class="progress-content__label" for="animateButton">Animate</label>
+                </div>
 
-                <form class="switch">
+                <div class="switch">
                     <input type="checkbox" id="hideButton" class="switch-button">
                     <span class="slider round"></span>
-                    <label for="hideButton">Hide</label>
-                </form>
-            </div>
+                    <label class="progress-content__label" for="hideButton">Hide</label>
+                </div>
+            </form>
         </div>
 
-        <script src="src/scripts/value.js"></script>
+        <script type="module" src="src/scripts/progress.js"></script>
     </body>
 </html>
