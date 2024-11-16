@@ -30,7 +30,10 @@ function onHideToggleClick() {
 }
 
 function onInputChange() {
-    progressValue.value > 100 ? progressValue.value = 100 : null;
+    let value = parseInt(progressValue.value, 10);
+    isNaN(value) ? value = 0 : null;
+    value > 100 ? value = 100 : null;
+    progressValue.value = value;
     progressBar.setProgress(progressValue.value);
 }
 
